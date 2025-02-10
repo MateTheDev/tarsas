@@ -67,7 +67,7 @@ header a {
 
 header a:hover {
     transition: ease 0.3s;
-    color: var(--link-button-color);
+    color: var(--accent-color);
 }
 
 .header-right {
@@ -127,36 +127,19 @@ header .header-right p {
 /* FOOTER */
 
 footer {
-    background-color: var(--header-color);
+    background-color: var(--tertiary-color);
     width: 100%;
     padding-inline: 100px;
     padding-bottom: 20px;
     margin-top: auto;
 }
 
+footer p {
+    color: var(--primary-color);
+}
+
 footer .footer-icons {
     font-size: 1.5rem;
-}
-
-footer #footer-github:hover {
-    background: linear-gradient(90deg, rgba(41,0,88,1) 0%, rgba(100,0,44,1) 100%, rgba(159,0,0,1) 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-footer #footer-youtube:hover {
-    background: rgb(250, 0, 50);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-footer #footer-tiktok:hover {
-    background: linear-gradient(130deg, rgba(37,255,253,1) 30%, rgba(230,24,82,1) 90%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 /* MOBILE COMPATIBILITY */
@@ -176,7 +159,7 @@ footer #footer-tiktok:hover {
         justify-content: center;
         align-items: center;
         transition: top 0.5s ease;
-        background-color: var(--header-color);
+        background-color: var(--tertiary-color);
     } 
 
     header .header-right .closeMenu {
@@ -191,9 +174,7 @@ footer #footer-tiktok:hover {
         float: right;
     }
 
-    header .header-right a:hover {
-        color: var(--link-button-color);
-    }
+    
 
     header .header-right a {
         font-size: 25px;
@@ -215,27 +196,6 @@ footer #footer-tiktok:hover {
         font-size: 1.7rem;
         display: inline-block;
         padding-inline: 5px;
-    }
-
-    header .header-right i#github:hover {
-        background: linear-gradient(90deg, rgba(41,0,88,1) 0%, rgba(100,0,44,1) 100%, rgba(159,0,0,1) 100%);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-
-    header .header-right i#youtube:hover {
-        background: rgb(250, 0, 50);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-
-    header .header-right i#tiktok:hover {
-        background: linear-gradient(130deg, rgba(37,255,253,1) 30%, rgba(230,24,82,1) 90%);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
     }
 
     header .header-right p {
