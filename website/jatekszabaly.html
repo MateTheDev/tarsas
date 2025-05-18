@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Castlegon - Főoldal</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" />
+    <script src="https://kit.fontawesome.com/9d969bd3cd.js" crossorigin="anonymous"></script>
+</head>
+
+<body data-bs-theme="dark" class="bg-dark text-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary px-3">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">Castlegon</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="/">Főoldal</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/hirek.html">Hírek</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/jatekszabaly.html">Játékszabály</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/vasarlas.html">Vásárold meg a játékot</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-primary text-white text-center py-5 mb-4 rounded-bottom shadow">
+        <div class="container">
+            <h2 class="display-5 fw-semibold">Castlegon: Játékszabályok</h2>
+            <p class="lead">Itt olvashatod el a játékszabályokat!</p>
+        </div>
+    </header>
+
+    <main class="container pb-5">
+        <table class="table table-bordered">
+            <tbody>
+                <tr>
+                    <td>Játékosok száma</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Játékidő</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>Kellékek</td>
+                    <td>kék és narancssárga dobókocka (társasjátékkal együtt jön)</td>
+                </tr>
+            </tbody>
+        </table>
+        <section>
+            <h2>Játékmenet</h2>
+            <p>A legfiatalabb játékos kezd, az első fázis a lehelyezés. A várat az első három sorban akárhova rakhatja.
+                Utána ezt megcsinálja a másik játékos is. Ezután felváltva hajtsák végre a játékosok az akciókat.</p>
+            <p>Az akcíók így vannak sorrendben:</p>
+            <ul>
+                <li>J1: elsődleges akció</li>
+                <li>J2: elsődleges akció</li>
+                <li>J1: másodlagos akció</li>
+                <li>J2: másodlagos akció</li>
+            </ul>
+            <p>A cél a vár, és a bázisok megsemmisítése.</p>
+        </section>
+        <h2>Játékelemek</h2>
+        <section>
+            <h3>Várak</h3>
+            <p>A várakból nem tudnak kijönni katonák. A várat csak akkor lehet megtámadni, ha az összes tábor
+                elpusztult.</p>
+        </section>
+        <section>
+            <h3>Katonák</h3>
+            <p>Ha a katonák összecsapnak, akkor dobókocka segítségével dől el, hogy ki a győztes. (Aki nagyobbat dob.)
+            </p>
+            <p>Ha vízen kell átkelni, akkor az 2 manát használ. Erdőbe bejutás vagy hegyre feljutás 1 manát használ,
+                bejutás után nem használ manát.</p>
+            <p>Ha egy katonasereg meghal, akkor a tábor újra kibocsájthatja (1 mozgatás akció fejében!)</p>
+        </section>
+        <section>
+            <h3>Katonacsoportok</h3>
+            <p>Két sereg össze tud állni egy katonacsoporttá, amennyiben szomszédos mezőben tartózkodnak.</p>
+        </section>
+        <section>
+            <h3>Táborok</h3>
+            <p>A táborokból lehet katonákat kiküldeni. Ha egy seregnyi katona támadja, akkor a támadott tábor
+                játékosának van lehetősége arra, hogy 2 mana fejében megjavítsa a tábort, ha ezt nem teszi meg, akkor,
+                ha még egyszer megtámadják, akkor a tábor megsemmisül. Ha két seregnyi katona támadja, akkor a tábor
+                elpusztult, nincs lehetősége javítani és a tábort nem lehet újra lehelyezni.</p>
+        </section>
+        <section>
+            <h3>Akciók</h3>
+            <table class="mb-0 table table-bordered">
+                <thead>
+                    <tr>
+                        <th colspan="2">
+                            <h4>Elsődleges akciók</h4>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><b>Épületek támadása</b></td>
+                        <td>
+                            <p>A katonákkal akármelyik várat, másik katonákat vagy táborokat is meg lehet támadni</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Táborok építése</b></td>
+                        <td>
+                            <p>Csak a saját térfélen lehet a táborokat lehelyezni, közvetlen a folyó mellett nem lehet
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Katonák mozgatása</b></td>
+                        <td>
+                            <p>Egy mezővel előre léphet egy sereg vagy katonacsoport</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Pihenés</b></td>
+                        <td>
+                            <p>Növeli a manád eggyel</p>
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+            <table class="pt-0 table table-bordered">
+                <thead>
+                    <tr>
+                        <th colspan="2">
+                            <h4>Másodlagos akciók</h4>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <b>Katonák mozgatása</b>
+                        </td>
+                        <td>
+                            <p>Egy mezővel előre léphet egy sereg vagy katonacsoport</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Tábor javítása</b></td>
+                        <td>
+                            <p>Ha a tábort megtámadták, de nem rombolták le teljesen akkor 2 manáért meg lehet javítani.</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h3>A játék vége</h3>
+            <p>Akkor van vége a játéknak, ha az összes katona és bázis is elpusztult, vagy az összes bázis és a vár is elpusztult.</p>
+        </section>
+    </main>
+
+    <footer class="bg-secondary text-center text-white py-3 mt-auto fixed-bottom">
+        <small>&copy; 2025 Piskóci Bence</small>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
